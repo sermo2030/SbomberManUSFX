@@ -139,7 +139,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bomba.cpp" />
+    <ClCompile Include="Bomber.cpp" />
+    <ClCompile Include="cronometro.cpp" />
+    <ClCompile Include="enemigo.cpp" />
+    <ClCompile Include="escenario.cpp" />
+    <ClCompile Include="etapa.cpp" />
+    <ClCompile Include="explosion.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="muro.cpp" />
     <ClCompile Include="principal.cpp" />
+    <ClCompile Include="puerta.cpp" />
+    <ClCompile Include="puntaje.cpp" />
+    <ClCompile Include="vida.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bomba.h" />
+    <ClInclude Include="Bomber.h" />
+    <ClInclude Include="cronometro.h" />
+    <ClInclude Include="enemigo.h" />
+    <ClInclude Include="escenario.h" />
+    <ClInclude Include="etapa.h" />
+    <ClInclude Include="explosion.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="muro.h" />
+    <ClInclude Include="puerta.h" />
+    <ClInclude Include="puntaje.h" />
+    <ClInclude Include="vida.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
