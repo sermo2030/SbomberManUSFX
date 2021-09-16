@@ -4,10 +4,10 @@ void vida::crear()
 {
 }
 
-void vida::aumentar()
+void vida::incrementar()
 {
 }
 
-void vida::decrecer()
+void vida::disminuir()
 {
 }

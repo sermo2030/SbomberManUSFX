@@ -2,22 +2,27 @@
 class vida
 {
 private:
-	int anchoVida;
-	int altoVida;
-	int numeroVida;
+	int anchoVidas;
+	int altoVidas;
+	int posicionVidasX;
+	int posicionVidasY;
+	int numeroVidas;
 
 public:
-	int getAnchoVida() { return anchoVida; }
-	void setAnchoVida(int _anchoVida) { anchoVida = _anchoVida; }
+	int getAnchoVidas() { return anchoVidas; }
+	void setVidas(int _anchoVidas) { anchoVidas = _anchoVidas; }
 
-	int getAltoVida() { return altoVida; }
-	void setAltoVida(int _altoVida) { altoVida = _altoVida; }
+	int getAltoVidas() { return altoVidas; }
+	void setAltoVidas(int _altoVidas) { altoVidas = _altoVidas; }
 
-	int getNumeroVida() { return numeroVida; }
-	void setNumeroVida(int _numeroVida) { numeroVida = _numeroVida; }
+	int getPosicionVidasX() { return posicionVidasX; }
+	void setPosicionVidasX(int _posicionVidasX) { posicionVidasX = _posicionVidasX; }
+
+	int getPosicionVidasY() { return posicionVidasY; }
+	void setPosicionVidasY(int _posicionVidasY) { posicionVidasY = _posicionVidasY; }
 
 	void crear();
-	void aumentar();
-	void decrecer();
+	void incrementar();
+	void disminuir();
 };
 
